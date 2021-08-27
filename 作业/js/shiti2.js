@@ -1,18 +1,15 @@
 {
+    let i=0;
     let label = [];
     let value = [];
     let button=document.querySelector('.flax .left .shuRu button');
     button.addEventListener('click',function (){
         let name=document.querySelectorAll('.flax .left .table table .name');
-        let pf=document.querySelectorAll('.flax .left .table table .pf');
+        // let pf=document.querySelectorAll('.flax .left .table table .pf');
         let xz=document.querySelectorAll('.flax .left .table table .xz');
-        for(let i=0;i<name.length;i++){
-            if ((name[i].innerHTML).length<8){
                 label.push((name[i].innerHTML));
-                // console.log(name[i].innerHTML)
                 value.push(+(xz[i].innerHTML));
-            }
-        }
+        i++;
         option = {
             backgroundColor: '#0B1535',
             "textStyle": {
