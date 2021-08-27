@@ -7,7 +7,7 @@
         let pf=document.querySelectorAll('.flax .left .table table .pf');
         let xz=document.querySelectorAll('.flax .left .table table .xz');
         for(let i=0;i<name.length;i++){
-            if ((name[i].innerHTML).length<5){
+            if ((name[i].innerHTML).length<8){
                 label.push((name[i].innerHTML));
                 // console.log(name[i].innerHTML)
                 value.push(+(xz[i].innerHTML));
