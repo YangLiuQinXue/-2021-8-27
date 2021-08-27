@@ -31,31 +31,31 @@ body{
 .flax .left .table table{
     width: 100%;
     text-align: center;
-    border: 1px solid black;
-    /*font-size: 30px;*/
+    border: 0.042rem solid black;
+    /*font-size: 1.25rem;*/
 }.flax .left .table table .top{
     /*width: 100%;*/
     /*text-align: center;*/
-    font-size: 30px;
+    font-size: 1.25rem;
 }
 .flax .left .table table tr td{
-    border: 1px solid black;
+    border: 0.042rem solid black;
 }
 .flax .right{
-    padding-top: 50px;
-    padding-left: 30px;
-    padding-right: 20px;
+    padding-top: 2.083rem;
+    padding-left: 1.25rem;
+    padding-right: 0.833rem;
     flex: 4;
     /*height: 8.333rem;*/
     /*background-color: blue;*/
 }
 .flax .right .top{
     width: 100%;
-    height: 400px;
+    height: 16.667rem;
     /*background-color: pink;*/
 }
 .flax .right .button{
     width: 100%;
-    height: 400px;
+    height: 16.667rem;
     /*background-color: aqua;*/
 }

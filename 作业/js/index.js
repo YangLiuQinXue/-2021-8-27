@@ -41,7 +41,8 @@
             !(parseInt(pf.value))&&alert('请正确输入评分');
             (pf.value>100)&&alert('请正确输入评分');
             (pf.value<0)&&alert('请正确输入评分');
-            !(parseInt(xz.value))&&(!xz.value>2000)&&alert('请正确输入薪资');
+            !(parseInt(xz.value))&&alert('请正确输入薪资');
+            (!xz.value>2000)&&alert('请正确输入薪资');
             name.value='';
             pf.value='';
             xz.value='';

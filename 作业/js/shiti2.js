@@ -120,7 +120,7 @@
                 "symbolOffset": [0, 0],
                 "symbolSize": [30, 15]
             }, {
-                "data": [200, 130, 84, 200, 250],
+                // "data": [200, 130, 84, 200, 250],
                 "type": "pictorialBar",
                 "barMaxWidth": "20",
                 "symbolPosition": "end",
