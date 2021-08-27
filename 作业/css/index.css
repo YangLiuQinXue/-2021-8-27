@@ -5,21 +5,40 @@ body{
 .flax{
     display: flex;
     box-sizing: border-box;
-    padding-top: 30px;
+    padding-top: 1.25rem;
 }
 .flax .left{
     flex: 6;
-    height: 4.167rem;
+    /*height: 4.167rem;*/
     background-color: pink;
 }
 .flax .left .shuRu{
     display: flex;
+    font-size: 1.25rem;
 }
 .flax .left .shuRu .input{
     flex: 1;
+    /*font-size: 0.917rem;*/
+}
+.flax .left .shuRu input,.flax .left .shuRu button{
+    height: 1.25rem;
+    vertical-align: top;
+    /*font-size: 0.917rem;*/
+}
+.flax .left .shuRu button{
+    background-image: linear-gradient( 135deg, #FFF3B0 10%, #CA26FF 100%);
+}
+.flax .left .table table{
+    width: 100%;
+    text-align: center;
+    /*font-size: 30px;*/
+}.flax .left .table table .top{
+    /*width: 100%;*/
+    /*text-align: center;*/
+    font-size: 30px;
 }
 .flax .right{
     flex: 4;
-    height: 8.333rem;
+    /*height: 8.333rem;*/
     background-color: blue;
 }
