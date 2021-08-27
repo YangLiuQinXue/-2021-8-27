@@ -107,7 +107,7 @@
                 },
                 "label": {
                     "show": true,
-                    "position": "top",
+                    // "position": "top",
                     "distance": 10,
                     "color": "#fff",
                     "position": [30, 10],
