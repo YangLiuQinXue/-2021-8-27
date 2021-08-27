@@ -11,13 +11,13 @@
     <div class="flax">
         <div class="left">
             <div class="shuRu">
-                <div class="input"><span>姓名</span><input id="name" aria-label="" placeholder="请输入姓名"></div>
-                <div class="input"><span >评分</span><input id="fen" aria-label="" placeholder="请输入评分"></div>
-                <div class="input"><span >薪资</span><input id="xz" aria-label="" placeholder="请输入薪资"></div>
+                <div class="input"><span>姓名</span><input id="name" aria-label="" placeholder="请输入姓名，最长五字符"></div>
+                <div class="input"><span >评分</span><input id="fen" aria-label="" placeholder="请输入评分,最大100分"></div>
+                <div class="input"><span >薪资</span><input id="xz" aria-label="" placeholder="请输入薪资,最低2000"></div>
                 <div class="input"><button value="提交">添加</button></div>
             </div>
             <div class="table">
-                <table>
+                <table id="table">
                     <tr class="top">
                         <td>姓名</td>
                         <td>评分</td>
@@ -26,9 +26,14 @@
                 </table>
             </div>
         </div>
-        <div class="right"></div>
+        <div class="right">
+            <div class="top"></div>
+            <div class="button"></div>
+        </div>
     </div>
     <script src="js/echarts.4.5.js"></script>
     <script src="js/index.js"></script>
+    <script src="js/shiTu.js"></script>
+    <script src="js/shiti2.js"></script>
 </body>
 </html>

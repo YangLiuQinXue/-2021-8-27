@@ -22,21 +22,29 @@
         let pf=document.getElementById('fen');
         let xz=document.getElementById('xz');
         let shu=document.querySelector('.flax .left .table table');
-        if((name.value)&&(parseInt(pf.value))&&(parseInt(xz.value))){
+        if((name.value)&&(parseInt(pf.value))&&(parseInt(xz.value))&&(name.value.length<5)&&(xz.value>2000)&&(pf.value<=100)&&(pf.value>0)){
             shu.innerHTML+=
                             `<tr class="top">
-                            <td>${name.value}</td>
-                            <td>${pf.value}</td>
-                            <td>${xz.value}</td>
+                            <td class="name">${name.value}</td>
+                            <td class="pf">${pf.value}</td>
+                            <td class="xz">${xz.value}</td>
                             </tr>`;
             name.value='';
             pf.value='';
             xz.value='';
             // console.log(shu);
+            // let i=0;
+            // let a=document.querySelectorAll('.flax .left .table table');
+            // console.log(a[i])
         }else {
-            !(name.value)&&alert('请输入姓名');
+            !(name.value)&&(name.value.length>5)&&alert('请输入姓名');
             !(parseInt(pf.value))&&alert('请正确输入评分');
-            !(parseInt(xz.value))&&alert('请正确输入薪资');
+            (pf.value>100)&&alert('请正确输入评分');
+            (pf.value<0)&&alert('请正确输入评分');
+            !(parseInt(xz.value))&&(!xz.value>2000)&&alert('请正确输入薪资');
+            name.value='';
+            pf.value='';
+            xz.value='';
         }
     });
 }
